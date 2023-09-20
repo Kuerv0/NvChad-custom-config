@@ -49,7 +49,7 @@ local plugins = {
     event = "InsertEnter",
     config = function()
       require("better_escape").setup {
-        mapping = {"fj"}
+        mapping = {"fj", "jf"}
       }
     end,
 
