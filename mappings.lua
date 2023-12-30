@@ -4,7 +4,7 @@ local M = {}
 M.general = {
   i = {
     -- Me acostumbré a este borrar xd
-    ["C-BS"] = {"M-BS", opts = { nowait = true } },
+    ["<C-h>"] = {"<C-w>"},
   },
   n = {
     ["fj"] = {":noh <CR>", "Clear highlights"},
@@ -13,6 +13,9 @@ M.general = {
 }
 
 M.disabled = {
+  i = {
+    ["<C-h>"] = "",
+  },
   n = {
     ["j"] = "",
     ["k"] = "",
